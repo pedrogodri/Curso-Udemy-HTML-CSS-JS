@@ -1,1 +1,54 @@
 @charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.banner {
+    background-image: url("../img/bg-3.jpg");
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+
+.banner-content {
+    text-align: center;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px 0 15px;
+}
+
+article header h2 {
+    background-color: rgb(207, 207, 207);
+    padding: 10px;
+    border-bottom: 3px solid rgb(148, 147, 147);
+    margin: 1px;
+}
+
+.rodape {
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    background-color: #6b6c68;
+}
