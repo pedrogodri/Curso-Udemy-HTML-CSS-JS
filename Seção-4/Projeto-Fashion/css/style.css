@@ -46,6 +46,11 @@ body {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 4px;
+    transition: color 0.3s 0.3s;
+}
+
+.itens-menu a:hover {
+    color: #fff;
 }
 
 #portfolio {
