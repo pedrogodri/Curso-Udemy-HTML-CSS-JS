@@ -5,3 +5,100 @@ body {
     margin: 0;
 }
 
+#principal {
+    width: 1024px;
+    margin: 20px auto;
+}
+
+#banner {
+    height: 50px;
+    background-color: #162028;
+    position: relative;
+}
+
+.logo-banner {
+    margin: 6px 0 0 140px;  
+}
+
+.menu-banner {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    height: 100%;
+}
+
+.lista-menu {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.itens-menu {
+    list-style: none;
+    display: inline-block;
+    margin-right: 0 15px 0 0;
+    padding: 13px;
+}
+
+.itens-menu a {
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+#portfolio {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+#portfolio h1 {
+    font-size: 36px;
+    color: #252525;
+}
+
+#portfolio p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+}
+
+#galery {
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.galery-card {
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.galery-title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#about {
+    background-color: #003d52;
+    padding: 100px;
+    color: #fff;
+    background-image: url("../img/bg_detalhe.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about-text {
+    line-height: 1.5;
+    width: 70%;
+}
