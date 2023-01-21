@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro Godri">
+    <meta name="description" content="Site de estrutura base">
+    <meta name="keywords" content="listas, HTML5">
+    <title>Listas Aninhadas e de definições</title>
+
+    <style>
+        li ul {
+            height: 0;
+            overflow: hidden;
+            transition: .5s;
+        }
+
+        li:hover {
+            background-color: #ccc;
+        }
+
+        li:hover ul {
+            height: 54px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Listas Aninhadas e de definições</h1>
+
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+                <li>Item 2.3</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+
+    <hr>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação de hypertexto</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilização</dd>
+    </dl>
+
+    <hr>
+
+    <dl>
+        <dt>www</dt>
+        <dt>internet</dt>
+        <dd>Rede mundial de conexão</dd>
+
+        <dt>Javascript</dt>
+        <dd>Lingaugem de programação</dd>
+        <dd>Linguagem para a internet</dd>
+    </dl>
+
+</body>
+</html>
