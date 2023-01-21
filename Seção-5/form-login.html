@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro Godri">
+    <meta name="description" content="Site de estrutura base">
+    <meta name="keywords" content="Formulario, Login, HTML5">
+    <title>Formulario Login</title>
+    <style>
+        .formLogin {
+            width: 250px;
+            margin: 50px auto;
+        }
+        .formLogin fieldset {
+            background-color: #ccc;
+        }
+
+        .formLogin legend {
+            background-color: rgb(133, 133, 133);
+            color: #ccc;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .formLogin label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        #user, #pass, .btn {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 15px;
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            border: none;
+        }
+
+        #user:focus, #pass:focus, .btn:focus {
+            background-color: rgb(94, 94, 94);
+            color: #ccc;
+        }
+
+        .btn {
+            margin-top: 15px;
+        }
+
+        #user {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario Login</h1>
+    <form action="#" method="post" class="formLogin">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="user">Digite o seu usario</label>
+            <input type="text" name="user" id="user" autofocus>
+            <label for="pass">Digite a sua senha</label>
+            <input type="password" name="pass" id="pass">
+            <input type="submit" value="logar" class="btn">
+        </fieldset>
+    </form>
+</body>
+</html>
