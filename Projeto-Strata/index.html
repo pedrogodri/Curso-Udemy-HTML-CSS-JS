@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="mainHeader">
+    <header id="mainHeader">
         <a href="index.html" class="mainHeaderLink">
             <img src="#" alt="texto">
         </a>
@@ -25,13 +25,127 @@
         </h1>
     </header>
 
-    <main class="mainContent">
-        <h2>Quando o header é aside e o aside é no header</h2>
-        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac
-            in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo
-            blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque cubilia.</p>
+    <main id="mainContent">
+        <section class="mainContentSection">
+            <h2>Quando o header é aside e o aside é no header</h2>
+            <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia
+                ac
+                in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque
+                commodo
+                blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
+                vulputate lorem neque cubilia.
+            </p>
+
+            <a href="#" title="Veja mais" class="buttonDefault">Veja mais</a>
+        </section>
+
+        <section class="mainContentSection">
+
+            <h3>Recent Work</h3>
+
+            <article class="RecentWorksCards">
+                <a href="./img/fulls/01.jpg">
+                    <img src="./img/thumbs/01.jpg" alt="Carro estacionado">
+                </a>
+                <p class="RecentWorksCardsTitle">Magna sed consequat tempus</p>
+                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            </article>
+
+            <article class="RecentWorksCards">
+                <a href="./img/fulls/02.jpg">
+                    <img src="./img/thumbs/02.jpg" alt="Carro estacionado">
+                </a>
+                <p class="RecentWorksCardsTitle">Ultricies lacinia interdum</p>
+                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            </article>
+
+            <article class="RecentWorksCards">
+                <a href="./img/fulls/03.jpg">
+                    <img src="./img/thumbs/03.jpg" alt="Carro estacionado">
+                </a>
+                <p class="RecentWorksCardsTitle">Tortor metus commodo</p>
+                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            </article>
+
+            <article class="RecentWorksCards">
+                <a href="./img/fulls/04.jpg">
+                    <img src="./img/thumbs/04.jpg" alt="Carro estacionado">
+                </a>
+                <p class="RecentWorksCardsTitle">Quam neque phasellus</p>
+                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            </article>
+
+            <article class="RecentWorksCards">
+                <a href="./img/fulls/05.jpg">
+                    <img src="./img/thumbs/05.jpg" alt="Carro estacionado">
+                </a>
+                <p class="RecentWorksCardsTitle">Nunc enim commodo aliquet</p>
+                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            </article>
+
+            <article class="RecentWorksCards">
+                <a href="./img/fulls/06.jpg">
+                    <img src="./img/thumbs/06.jpg" alt="Carro estacionado">
+                </a>
+                <p class="RecentWorksCardsTitle">Risus ornare lacinia</p>
+                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            </article>
+
+            <a href="#" title="Veja portfolio completo" class="buttonDefault">Veja portfolio completo</a>
+
+        </section>
+
+        <section class="mainContentSection">
+            <h3>Get in touch</h3>
+
+            <p>
+                Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu
+                lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.
+            </p>
+
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="msg">Message</label>
+                <textarea name="msg" id="msg"></textarea>
+
+                <input type="submit" value="Confirm">
+            </form>
+
+            <address>
+                <p>
+                    <span>Address</span>
+                    Endereço 1234 Somewhere Rd. Nashville, TN 00000 United States
+                </p>
+
+                <p>
+                    <span>Phone</span>
+                    000-000-000
+                </p>
+
+                <p>
+                    <span>Email</span>
+                    email@server.com
+                </p>
+            </address>
+        </section>
+
+        <section class="mainContentSection">
+            <h3>Elements</h3>
+            <h4>Text</h4>
+            <p>This is <b>bold</b> and this is <strong>strong</strong>. 
+               This is <i>italic</i> and this is <em>emphasized</em>. 
+               This is <sup>superscript</sup> text and this is <sub>subscript</sub> text. 
+               This is <u>underlined</u> and this is <code>code: for (;;) { ... }</code>. 
+               Finally, this is <a href="#">0a link</a>.
+            </p>
+        </section>
     </main>
+
     <footer class="mainFooter"></footer>
 </body>
 
