@@ -103,6 +103,31 @@ li{
     color: #49bf9d;
 }
 
+.buttonDefault {
+    background-color: #49bf9d;
+    border: 2px solid #49bf9d;
+    color: #fff;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+}
+
+.buttonDefaultStroke {
+    background-color: #fff;
+    border-color: #efefef;
+    color: inherit;
+}
+
+.buttonDefaultSmall {
+    font-size: .65em;
+}
+
+.buttonDefaultFull {
+    display: block;
+    text-align: center;
+}
+
 .mainHeader {
     position: fixed;
     top: 0;
