@@ -274,6 +274,16 @@ textarea {
     border-radius: 10px;
 }
 
+.galleryImg img {
+    width: 100%;
+} 
+
+.galleryThumb img, .galleryImg img {
+    margin-bottom: 2%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
 .row {
     overflow: auto;
 }
@@ -298,6 +308,9 @@ textarea {
 
 .col-1-3 {
     width: 32%;
-    margin-left: 3%;
     float: left;
+}
+
+.col-1-3:nth-child(3n - 1) {
+    margin: 0 2%;
 }
