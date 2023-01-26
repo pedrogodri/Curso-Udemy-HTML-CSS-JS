@@ -22,9 +22,14 @@
         <h1 class="mainHeaderTitle">
             Trabalhos e groselhas de <br>
             <strong>Pedro Henrique Godri</strong>,<br>
-            um zé ninguém qualquel <br>
-            Retirado de <a href="http://html5up.net" class="mainHeaderLink">html5up.net</a>.
+            um zé ninguém qualquel
         </h1>
+        <p>
+            Retirado de
+            <a href="http://html5up.net" class="mainHeaderLink">
+                html5up.net
+            </a>.
+        </p>
     </header>
 
     <main class="mainContent">
@@ -54,7 +59,7 @@
                         <p class="RecentWorksCardsTitle">Magna sed consequat tempus</p>
                         <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
                     </article>
-        
+
                     <article class="RecentWorksCards">
                         <a href="./img/fulls/02.jpg" class="imgLink">
                             <img src="./img/thumbs/02.jpg" alt="Carro estacionado">
@@ -62,7 +67,7 @@
                         <p class="RecentWorksCardsTitle">Ultricies lacinia interdum</p>
                         <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
                     </article>
-        
+
                     <article class="RecentWorksCards">
                         <a href="./img/fulls/03.jpg" class="imgLink">
                             <img src="./img/thumbs/03.jpg" alt="Carro estacionado">
@@ -80,7 +85,7 @@
                         <p class="RecentWorksCardsTitle">Quam neque phasellus</p>
                         <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
                     </article>
-        
+
                     <article class="RecentWorksCards">
                         <a href="./img/fulls/05.jpg" class="imgLink">
                             <img src="./img/thumbs/05.jpg" alt="Carro estacionado">
@@ -88,7 +93,7 @@
                         <p class="RecentWorksCardsTitle">Nunc enim commodo aliquet</p>
                         <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
                     </article>
-        
+
                     <article class="RecentWorksCards">
                         <a href="./img/fulls/06.jpg" class="imgLink">
                             <img src="./img/thumbs/06.jpg" alt="Carro estacionado">
@@ -135,17 +140,17 @@
                 <div class="col-1-3">
                     <address>
                         <p>
-                            <span>Address</span>
+                            <span>Address: </span>
                             Endereço 1234 Somewhere Rd. Nashville, TN 00000 United States
                         </p>
 
                         <p>
-                            <span>Phone</span>
+                            <span>Phone: </span>
                             000-000-000
                         </p>
 
                         <p>
-                            <span>Email</span>
+                            <span>Email: </span>
                             email@server.com
                         </p>
                     </address>
@@ -173,7 +178,9 @@
 
             <h4>Blockquote</h4>
             <blockquote cite="http://developer.mozilla.org">
-                Esta é uma citação tirada da Mozilla Developer Center.
+                <p>
+                    Esta é uma citação tirada da Mozilla Developer Center.
+                </p>
             </blockquote>
 
             <p>
@@ -184,13 +191,11 @@
             </p>
 
             <h4>Preformater</h4>
-            <pre>
-                <code>
+            <pre><code>
 &lt;script&gt;
     alert('oi')
 &lt;script&gt;
-                </code>
-            </pre>
+            </code></pre>
 
             <h4>List</h4>
 
@@ -221,8 +226,8 @@
 
                     <h5>Icons</h5>
                     <ul class="ulIcons">
-                        <li><i class="fa-brands fa-twitter"></i></li>
-                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><span class="hidden">Facebook</span><i class="fa-brands fa-facebook"></i></li>
+                        <li><span class="hidden">Twitter</span><i class="fa-brands fa-twitter"></i></li>
                     </ul>
                 </div>
             </div>
@@ -401,32 +406,35 @@
             <input type="submit" class="buttonDefault" value="Mandar">
 
             <h5>Forms</h5>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name">
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
 
-            <select class="selectFormation">
-                <option value="0">Category</option>
-                <option value="1">Manufacturing</option>
-                <option value="2">Shipping</option>
-                <option value="3">Administration</option>
-                <option value="3">Human Resources</option>
-            </select>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
 
-            <label><input type="radio" value="low" name="priority">Low Priority</label>
-            <label><input type="radio" value="normal" name="priority">Normal Priority</label>
-            <label><input type="radio" value="high" name="priority">High Priority</label>
+                <select class="selectFormation">
+                    <option value="0">Category</option>
+                    <option value="1">Manufacturing</option>
+                    <option value="2">Shipping</option>
+                    <option value="3">Administration</option>
+                    <option value="3">Human Resources</option>
+                </select>
 
-            <label><input type="checkbox" name="copy" value="1">Email me a copy of this message</label>
-            <label><input type="checkbox" name="human" value="1">I am a human and not a robot</label>
+                <label><input type="radio" value="low" name="priority">Low Priority</label>
+                <label><input type="radio" value="normal" name="priority">Normal Priority</label>
+                <label><input type="radio" value="high" name="priority">High Priority</label>
 
-            <label for="msg">Message</label>
-            <textarea placeholder="Write a message" id="msg"></textarea>
+                <label><input type="checkbox" name="copy" value="1">Email me a copy of this message</label>
+                <label><input type="checkbox" name="human" value="1">I am a human and not a robot</label>
 
-            <input type="submit" class="buttonDefault" value="To Send">
-            <input type="reset" class="buttonDefault buttonDefaultStroke" value="Reset">
+                <label for="msg">Message</label>
+                <textarea placeholder="Write a message" id="msg"></textarea>
+
+                <input type="submit" class="buttonDefault" value="To Send">
+                <input type="reset" class="buttonDefault buttonDefaultStroke" value="Reset">
+            </form>
         </section>
 
         <section class="mainContentSection">
@@ -478,10 +486,10 @@
     <footer class="mainFooter">
         <ul class="ulIcons">
             <li>
-                <a href="#" class="iconLink"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="iconLink"><span class="hidden">Twitter</span><i class="fa-brands fa-twitter"></i></a>
             </li>
             <li>
-                <a href="#" class="iconLink"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="iconLink"><span class="hidden">Facebook</span><i class="fa-brands fa-facebook"></i></a>
             </li>
         </ul>
         <ul class="copyright">
