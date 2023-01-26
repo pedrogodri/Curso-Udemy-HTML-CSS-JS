@@ -22,6 +22,10 @@ p {
     margin: 0 0 2em;
 }
 
+img {
+    max-width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -179,6 +183,10 @@ textarea {
     text-align: center;
 }
 
+.imgLink {
+    border: 0;
+}
+
 .table {
     width: 100%;
     margin: 0 0 2em;
@@ -256,6 +264,14 @@ textarea {
     width: 65%;
     margin-left: 35%;
     padding: 124px 62px 62px;
+}
+
+.mainHeaderLink img {
+    border-radius: 50%;
+}
+
+.RecentWorksCards img {
+    border-radius: 10px;
 }
 
 .row {
